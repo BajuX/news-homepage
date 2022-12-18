@@ -1,0 +1,8 @@
+.flex {
+   width: 100%;
+   display: flex;
+   .description {
+    display: flex;
+   flex-direction: column;
+   }
+}
