@@ -1,11 +1,26 @@
 .flex {
-   width: 100%;
-   display: flex;
-   .description {
+  width: 100%;
+  display: flex;
+  .description {
     display: flex;
-   flex-direction: column;
-   b {
+    flex-direction: column;
+    margin-left: 5%;
+    width: 55%;
+    font-family: interRegular;
+    b {
       font-size: 48px;
-   }
-   }
+      color: hsl(233, 8%, 79%);
+    }
+
+    h3 {
+      font-size: 24px;
+      margin-top: 3%;
+    }
+
+    p {
+      margin-top: 5%;
+      font-size: 20px;
+      line-height: 175%;
+    }
+  }
 }

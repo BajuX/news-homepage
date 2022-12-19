@@ -1,0 +1,6 @@
+:is(span, h2, h3) {
+  cursor: pointer;
+  &:hover {
+    color: hsl(35, 77%, 62%);
+  }
+}

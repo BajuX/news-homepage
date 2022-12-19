@@ -1,21 +1,25 @@
 .grid-part-3 {
-    p {
-        font-family: interRegular;
-        width: 80%;
-        font-size: 20px;
-        word-spacing: 1.5px;
-        line-height: 30px;
-    }
+  p {
+    font-family: interRegular;
+    width: 80%;
+    font-size: 20px;
+    word-spacing: 1.5px;
+    line-height: 30px;
+  }
 
-    button {
-        height: 60px;
-        width: 250px;
-        border: none;
-        background: hsl(5, 85%, 63%);
-        color: hsl(36, 100%, 99%);
-        position: relative;
-        font-size: 24px;
-        letter-spacing: 5px;
-        top: 31%;
+  button {
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    border: none;
+    background: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 5px;
+    top: 31%;
+    &:hover {
+      background: hsl(240, 100%, 5%);
     }
+  }
 }

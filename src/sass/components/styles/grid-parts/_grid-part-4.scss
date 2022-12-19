@@ -1,34 +1,33 @@
 .grid-part-4 {
-    background: hsl(240, 100%, 5%);
-    padding: 5%;
-    color: hsl(36, 100%, 99%);
-    width: 25rem;
-    height: 100%;
-    h2 {
-        color: hsl(35, 77%, 62%);
-        font-size: 48px;
-        
-        font-family: interBold;
-    }
-    article {
-        height: 33%;
-        padding-top: 30px;
-        h3 {
-            font-size: 32px;
-            
-        }
-        p {
-            padding-top: 5%;
-            font-size: 24px;
-            color: hsl(233, 8%, 79%);
-            width: 100%;
-            word-spacing: 3px;
-        }
-        
-    }
+  background: hsl(240, 100%, 5%);
+  padding: 5%;
+  color: hsl(36, 100%, 99%);
+  width: 32rem;
+  height: 100%;
+  h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 48px;
 
-    article + article {
-        border-top: 2px solid hsl(233, 8%, 79%);
-        padding-top: 50px;
+    font-family: interBold;
+  }
+  article {
+    height: 33%;
+    padding-top: 30px;
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      padding-top: 5%;
+      font-size: 20px;
+      color: hsl(233, 8%, 79%);
+      width: 100%;
+      word-spacing: 2px;
+      line-height: 150%;
     }
   }
+
+  article + article {
+    border-top: 2px solid hsl(233, 8%, 79%);
+    padding-top: 50px;
+  }
+}
